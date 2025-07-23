@@ -38,10 +38,12 @@ You can also add an optional delay (in seconds) before the program exits:
 ```
 terminal-image path/to/image.png 5
 ```
+ 
+### preview
 
-## Example
-
-![example](https://raw.githubusercontent.com/yourusername/terminal-image/main/example.png)
+| Original image            | Terminal output                    |
+|---------------------------|------------------------------------|
+| ![Original](test4.png)    | ![Preview](terminal_preview.png)   |
 
 ## Requirements
 

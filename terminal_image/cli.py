@@ -6,7 +6,7 @@ import time
 def bgr_to_ansi(r, g, b):
     return f"\033[38;2;{r};{g};{b}m"
 
-def print_image(path, delay=5):
+def print_image(path, delay=0):
     img = cv2.imread(path)
     if img is None:
         print(f"Error: Cannot load image '{path}'")
