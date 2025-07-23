@@ -18,4 +18,7 @@ requires = ["setuptools>=61.0"]
 build-backend = "setuptools.build_meta"
 
 [tool.setuptools.packages.find]
-exclude = ["Screenshots"]
+where = ["src"]
+
+[tool.setuptools]
+packages = ["terminal_image"]
