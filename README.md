@@ -30,13 +30,13 @@ pip install -e .
 Display an image in the terminal:
 
 ```
-terminal-image path/to/image.png
+timage path/to/image.png
 ```
 
-You can also add an optional delay (in seconds) before the program exits:
+You can also add an optional delay (in seconds) before the program starts:
 
 ```
-terminal-image path/to/image.png 5
+timage path/to/image.png 5
 ```
  
 ### preview
@@ -50,7 +50,3 @@ terminal-image path/to/image.png 5
 - Python 3.7+
 - A terminal that supports ANSI true color
 - opencv-python
-
-## License
-
-This project is licensed under the MIT License.
