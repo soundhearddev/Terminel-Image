@@ -50,7 +50,3 @@ timage path/to/image.png 5
 - Python 3.7+
 - A terminal that supports ANSI true color
 - opencv-python
-
-## License
-
-This project is licensed under the MIT License.
