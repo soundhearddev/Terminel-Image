@@ -43,7 +43,7 @@ terminal-image path/to/image.png 5
 
 | Original image            | Terminal output                    |
 |---------------------------|------------------------------------|
-| ![Original](test3.png)    | ![Preview](Screenshots\cat.png)   |
+| ![Original](test3.png)    | ![Preview](Screenshots/cat.png)   |
 
 ## Requirements
 
