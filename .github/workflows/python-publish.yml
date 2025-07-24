@@ -36,8 +36,6 @@ jobs:
     runs-on: ubuntu-latest
     needs:
       - release-build
-    permissions:
-      id-token: write
 
     environment:
       name: pypi
@@ -55,3 +53,5 @@ jobs:
           packages-dir: dist/
           user: __token__
           password: ${{ secrets.PYPI_API_TOKEN }}
+
+
