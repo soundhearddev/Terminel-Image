@@ -3,7 +3,7 @@ name = "terminal-image"
 version = "0.1.0"
 description = "Display images in the terminal using ANSI colors"
 authors = [{ name = "Soundhearddev", email = "letdes50@gmail.com" }]
-license = "Apache 2.0"
+license = "Apache-2.0"
 readme = "README.md"
 dependencies = [
   "opencv-python>=4.0.0",
