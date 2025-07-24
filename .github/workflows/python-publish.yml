@@ -19,18 +19,25 @@ jobs:
   release-build:
     runs-on: ubuntu-latest
 
-    steps:
+        steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          clean: true
 
       - uses: actions/setup-python@v5
         with:
           python-version: "3.x"
 
+      - name: Clean working directory
+        run: rm -rf build dist *.egg-info Screenshots
+
       - name: Build release distributions
         run: |
-          # NOTE: put your own distribution build steps here.
+          python -m pip install --upgrade pip
           python -m pip install build
           python -m build
+
 
       - name: Upload distributions
         uses: actions/upload-artifact@v4
